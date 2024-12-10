@@ -1,0 +1,210 @@
+@font-face {
+    font-family: font1;
+    src: url(./public/NeueHaasDisplayBold.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height:100%;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    width:30vw;
+    padding: 1vw 3vw;
+    background-color: #bde0fe;
+    border-radius: 1vw;
+}
+
+.card-text{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-text>h2{
+    font-size: 1.6vw;
+    color: #2e63d5;
+    text-transform: uppercase;
+    font-family: "font1";
+}
+
+.card-text>h2>p{
+    font-size: 1.9vw;
+    color: #7209b7;
+    text-transform: uppercase;
+    font-family: "font1";
+}
+
+.card-text>img{
+    height:5vw;
+    width:4vw;
+    object-fit: cover;
+    
+}
+.card-users{
+    margin-top: 2vw;
+}
+
+.user{
+    width:24vw;
+    padding: .5vw 1.5vw;
+    background-color: #a8dadc;
+    border-radius: 1vw;
+    display: flex;
+
+}
+.user>img{
+    height:3.5vw;
+    width:3.5vw;
+    object-fit: cover;
+    border-radius: 50%;
+    background-color: #7209b7;
+}
+
+.user-text{
+    margin-left: 2vw;
+    margin-top: .5vw;
+}
+
+.user-text>p{
+    font-size: 1vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    gap:.2vw
+}
+
+.wish-btn{
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+
+.wish{
+    margin-top: 3vw;
+    padding: 1vw 1vw;
+    border:none;
+    border-radius: 3vw;
+    font-size: 1.2vw;
+    text-transform: uppercase;
+    color: white;
+    background: linear-gradient(to right, #f43b47, #ff8a00);
+    letter-spacing: none;
+}
+
+.wish:hover{
+    cursor: pointer;
+}
+
+
+/* adademy */
+
+.academy{
+    width:20vw;
+    border-radius: 1vw;
+    padding: 1vw 3vw;
+    background-color: rgba(230, 225, 225, 0.48);
+
+}
+.academy-text{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.academy-text>img{
+    height:3vw;
+    width:6vw;
+    object-fit: cover;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: .5vw;
+}
+.text>h2{
+    font-size: 1.2vw;
+    font-family: "font1";
+    text-transform: capitalize;
+
+}
+
+.text>p{
+    font-size: .9vw;
+    font-family:serif;
+    text-transform: capitalize;
+
+}
+
+.img-info{
+    margin-top: 1vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.img-info>img{
+    height:6vw;
+    width:6vw;
+    border-radius: 50%;
+
+}
+
+.bar-text{
+    margin-top: .5vw;
+    display: flex;
+    flex-direction: column;
+    gap:.5vw
+}
+
+.bar{
+    height:2vw;
+    width:6vw;
+    border-radius: .3vw;
+    background-color: azure;
+}
+
+.bar-text>h3{
+    font-size: 1vw;
+    text-transform: capitalize;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.student-info{
+    margin-top: 2vw;
+}
+
+.student-info>h4{
+    font-size: 1.3vw;
+    text-decoration: underline;
+}
+
+.std-text{
+    margin-top: .2vw;
+}
+
+.std-text>p{
+    font-size: 1vw;
+}
+
+
+
+
